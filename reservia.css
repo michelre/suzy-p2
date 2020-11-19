@@ -1,7 +1,48 @@
 /* Feuille de style */
+#Maquette
+{
+	margin: auto;
+}
 
-ul {
-	list-style:none;
-	margin-left:100px;
-	padding-left:100px;
+#topsection 
+{
+	display: flex;
+	width: 900px;
+}
+ ul
+{
+	list-style: none;
+	display: flex;
+	color: blue;
+}
+nav li
+{
+	margin-right: 50px; 
+}
+nav a:hover
+{
+	color: grey;
+}
+#hebergements 
+{
+	display: flex;
+
+}
+#hebergements figure
+
+{
+	display: flex;
+	width: 100px;
+	flex-wrap: wrap;
+}
+#Pied footer
+{
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+}
+#hebergements img
+{
+    width: 200px;
+    height: 150px;
 }
