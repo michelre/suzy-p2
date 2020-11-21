@@ -1,6 +1,7 @@
 /* Feuille de style */
 #Maquette
 {
+	width: 900px;
 	margin: auto;
 }
 
@@ -26,6 +27,8 @@ nav a:hover
 #hebergements 
 {
 	display: flex;
+	background-color: rgb(222,222,222);
+	 border-radius: 5px;
 
 }
 #hebergements figure
@@ -40,9 +43,48 @@ nav a:hover
 	display: flex;
 	flex-direction: row;
 	justify-content: space-between;
+	border-radius: 5px;
+	background-color: rgb(222,222,222);
+}
+footer
+{
+	width: 100%;
 }
 #hebergements img
 {
-    width: 200px;
+    width: 100px;
+    height: 100px;
+}
+ #hebergements img
+{
+	justify-content: flex-start;
+}
+figure img
+{
+	display: flex;
+	flex-direction: row;
+	border-radius: 5px;
+	width: 200px;
     height: 150px;
+	
+}
+aside
+{
+	 background-color: rgb(222,222,222);
+	  border-radius: 5px;
+}
+
+aside img
+{
+	width: 200px;
+    height: 150px;
+    border-radius: 5px;
+	
+}
+
+aside figcaption
+{
+	display: flex;
+	justify-content: flex-start;
+	align-items: center;
 }
