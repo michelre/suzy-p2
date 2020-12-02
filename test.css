@@ -1,0 +1,32 @@
+#Maquette
+{
+	width: 1024px;
+	margin: auto;
+}
+#section
+{
+	display: flex;
+	width: 900px;
+}
+p, h1
+{
+	font-size: 30px;
+}
+ul
+{
+	list-style-type: none;
+	display: flex;
+	color: blue;
+}
+nav li
+{
+	margin-right: 50px;  
+}
+nav a:hover
+{
+	color: grey;
+}
+#menu
+{
+	width: 900;
+}

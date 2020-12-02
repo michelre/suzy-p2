@@ -1,14 +1,14 @@
 /* Feuille de style */
+
 #Maquette
 {
 	width: 900px;
-	margin: auto;
+	
 }
 
 #topsection 
 {
 	display: flex;
-	width: 900px;
 }
  ul
 {
@@ -23,27 +23,31 @@ nav li
 nav a:hover
 {
 	color: grey;
-}
-#hebergements 
-{
-	display: flex;
-	background-color: rgb(222,222,222);
-	 border-radius: 5px;
 
+
+	
 }
-#hebergements figure
+.i{
+	border-radius: 15px;
+}
+#hebergements
 
 {
-	display: flex;
-	width: 100px;
+	width: 66%;
 	flex-wrap: wrap;
+	justify-content: flex-start;
+	flex-direction: space-around;
+	flex-direction: row;
+	background-color: rgb(222,222,222);
+	 border-radius: 15px;
+
 }
 #Pied footer
 {
 	display: flex;
 	flex-direction: row;
 	justify-content: space-between;
-	border-radius: 5px;
+	border-radius: 15px;
 	background-color: rgb(222,222,222);
 }
 footer
@@ -52,12 +56,16 @@ footer
 }
 #hebergements img
 {
+	display: flex;
     width: 100px;
-    height: 100px;
+    height: 50px;
+    padding-bottom: 5%;
+    padding-left: 0.5%;
+    padding-top: 5%;
 }
- #hebergements img
+#hebergements, img
 {
-	justify-content: flex-start;
+  border-radius: 15px;
 }
 figure img
 {
@@ -71,14 +79,14 @@ figure img
 aside
 {
 	 background-color: rgb(222,222,222);
-	  border-radius: 5px;
+	  border-radius: 15px;
 }
 
 aside img
 {
-	width: 200px;
+	width: 150px;
     height: 150px;
-    border-radius: 5px;
+    border-radius: 15px;
 	
 }
 
@@ -86,5 +94,37 @@ aside figcaption
 {
 	display: flex;
 	justify-content: flex-start;
-	align-items: center;
 }
+#Activites, figure
+{
+
+	display: flex;
+	flex-wrap: wrap;
+
+}
+#Activites img
+{
+	width: 200;
+	height:150;
+}
+.at2: nth-child(2)
+	flex-shrink;
+	
+}
+#A_propos h1
+{
+	font-size: 0.5px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
