@@ -1,8 +1,7 @@
-/* Feuille de style */
-
 #Maquette
 {
-	width: 900px;
+	width: 100%;
+	margin: auto;
 	
 }
 
@@ -23,25 +22,55 @@ nav li
 nav a:hover
 {
 	color: grey;
-
-
 	
 }
-.i{
+header p
+{
+	font-size: 1.5;
+}
+form i
+{
+	border-radius: 15px;
+	width: 30%;
+}
+#hotels
+{
+	display: flex;
+	justify-content: space-between;
+
+}
+ #hebergements
+{
+	width: 60%;
+	height: 20%;
+	background-color: rgb(222,222,222);
+	border-radius: 15px;
+
+}
+#image1 
+{
+	display: flex;
+	justify-content: space-around;
+	flex-wrap: wrap;
+}
+#populaires
+{
+	width: 30%;
+	height: 20%;
+	background-color: rgb(222,222,222);
 	border-radius: 15px;
 }
-#hebergements
-
+/*
+#bloc1
 {
-	width: 66%;
-	flex-wrap: wrap;
-	justify-content: flex-start;
-	flex-direction: space-around;
-	flex-direction: row;
-	background-color: rgb(222,222,222);
-	 border-radius: 15px;
-
+	display: flex;
 }
+#bloc1 img
+{
+flex-wrap: wrap;
+justify-content: space-between;
+width: 60%;
+} */
 #Pied footer
 {
 	display: flex;
@@ -54,69 +83,88 @@ footer
 {
 	width: 100%;
 }
-#hebergements img
+#pied
 {
 	display: flex;
+	justify-content: space-around;
+	background-color: rgb(222,222,222);
+}
+#hebergements img
+{
+	/*
+	float:left;
+	padding-left: 1%;
+	*/
+	vertical-align: top;
+	/*
+	display: flex;
+	align-items: space-between;
+	flex-wrap: wrap;
     width: 100px;
-    height: 50px;
+    height: 120px;
+    object-fit: cover;
     padding-bottom: 5%;
     padding-left: 0.5%;
     padding-top: 5%;
+    border-radius: 15px;
+    */
 }
-#hebergements, img
+ figure figcaption
 {
-  border-radius: 15px;
+ 	/*
+ 	display: flex;
+  	border-radius: 10px;*/
+  	text-align: center;
+  	border: 2px;
+  	position: relative;
 }
+
 figure img
 {
+	vertical-align: top;
 	display: flex;
-	flex-direction: row;
-	border-radius: 5px;
-	width: 200px;
-    height: 150px;
+	flex-wrap: wrap;
+	border-radius: 15px;
+	width: 130px;
+    height: 120px;
 	
 }
 aside
 {
+	width: 36%;
 	 background-color: rgb(222,222,222);
 	  border-radius: 15px;
 }
 
 aside img
 {
-	width: 150px;
-    height: 150px;
-    border-radius: 15px;
+	width: 130px;
+    height: 120px;
+    border-radius: 1px;
+}
 	
-}
 
-aside figcaption
+#Loisirs figure figcaption
 {
+
 	display: flex;
-	justify-content: flex-start;
-}
-#Activites, figure
-{
+	justify-content: space-between;
 
+}
+#Activites 
+{
 	display: flex;
 	flex-wrap: wrap;
-
 }
-#Activites img
+/*#Activites figcaption
 {
-	width: 200;
-	height:150;
-}
-.at2: nth-child(2)
-	flex-shrink;
-	
-}
-#A_propos h1
+	object-position: 
+}*/
+.at6 img
 {
-	font-size: 0.5px;
+	width: 400px
+	height:800px;
 }
-
-
 
 
 
