@@ -26,6 +26,14 @@ nav a:hover
 	color: grey;
 	
 }
+/*@font-face{
+	font-family: 'Raleway-Bold';
+	src: url('Raleway-Bold-webfont.ttf') format('truetype');
+}
+h1
+{
+	font-family: 'Raleway-Bold';
+}*/
 header p
 {
 	font-size: 1.5;
@@ -33,7 +41,7 @@ header p
 
 .heb 
 {
-	color: blue;
+	color: #0065FC;
 }
 .act
 {
@@ -41,7 +49,7 @@ header p
 }
 .insc
 {
-	color: blue;
+	color: #0065FC;
 	font-weight: bold;
 
 }
@@ -80,13 +88,13 @@ header p
 	height: 100%;
 	border-radius: 0px 15px 15px 0px;
 	border:none;
-	background-color: blue;
+	background-color: #0065FC;
 	color: white;
 }
 i.localisation
 {
 	color: black;
-	background-color: rgb(222,222,222);
+	background-color: #F2F2F2;
 	padding-left: 10px;
 	padding-right: 10px;
 	display: flex;
@@ -119,7 +127,7 @@ i.localisation
 }
 .filtres i
 {
-	color: blue;
+	color: #0065FC;
 	width: 30px;
 	height: 30px;
 	border:none;
@@ -127,7 +135,7 @@ i.localisation
 	text-align: center;
 	line-height: 2.3;
 	margin-right: 10px;
-	background-color: rgb(202,223,251);
+	background-color: #DEEBFF;
 }
 
 .logo
@@ -144,7 +152,7 @@ i.localisation
 }
 .informations i
 {
-	color: blue; 
+	color: #0065FC; 
 	width: 20px;
 	height: 20px;
 	border:1.5px solid rgb(222,222,222);
@@ -165,7 +173,7 @@ i.localisation
 {
 	width: 60%;
 	height: 20%;
-	background-color: rgb(222,222,222);
+	background-color: #F2F2F2;
 	border-radius: 15px;
 }
 #hebergements img
@@ -238,7 +246,7 @@ figcaption i
 {
 	width: 36%;
 	height: 40%;
-	background-color: rgb(222,222,222);
+	background-color: #F2F2F2;
 	border-radius: 15px;
 }
 #populaires h3
@@ -281,22 +289,22 @@ figcaption i
 
 .fa_star
 {
-	color: blue;
+	color: #0065FC;
 }
 .fas
 {
-	color: blue;
+	color: #0065FC;
 }
 .etoile 
 {
-	color: rgb(222,222,222);
+	color: #F2F2F2;
 }
 
 
 aside
 {
 	width: 36%;
-	 background-color: rgb(222,222,222);
+	 background-color: #F2F2F2;
 	  border-radius: 15px;
 }
 
@@ -320,6 +328,10 @@ aside
 	height:300px;
 	object-fit: cover;
 	object-position: top;
+}
+.fig1
+{
+	border-radius: 15px;
 }
 figure.fig1
 {
@@ -390,12 +402,48 @@ footer
 	width: 100%;
 	display: flex;
 	justify-content: space-around;
-	background-color: rgb(222,222,222);
+	background-color: #F2F2F2;
 
 }
 @media all and (max-width: 1024px)
 {
-    
+	#Maquette
+	{
+		width: auto;
+	}
+	ul
+	{
+		display: flex;
+		flex-direction: column-reverse;
+	}
+    .filtres
+    {
+    	display: flex;
+    	flex-direction: column;
+    	align-items: flex-start;
+    }
+    #hotels
+    {
+    	display: flex;
+    	flex-direction: column-reverse;
+    }
+    #image1
+    {
+    	display: flex;
+    	flex-direction: column;
+    }
+    #Activites
+    {
+
+    	display: flex;
+    	flex-direction: column;
+    }
+    #Pied
+    {
+    	
+    	display: flex;
+    	flex-direction: column;
+    }
 
 }
 
