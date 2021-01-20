@@ -26,17 +26,17 @@ nav a:hover
 	color: grey;
 	
 }
-/*@font-face{
-	font-family: 'Raleway-Bold';
-	src: url('Raleway-Bold-webfont.ttf') format('truetype');
+@font-face{
+	font-family: 'Raleway';
+	src: url('static/Raleway-Bold.ttf') format('truetype');
 }
-h1
+body
 {
-	font-family: 'Raleway-Bold';
-}*/
+	font-family: 'Raleway';
+}
 header p
 {
-	font-size: 1.5;
+	font-size: 0.5;
 }
 
 .heb 
@@ -332,6 +332,9 @@ aside
 .fig1
 {
 	border-radius: 15px;
+	box-shadow: 2px 1px 16px -3px rgba(26,24,24,0.75);
+-webkit-box-shadow: 2px 1px 16px -3px rgba(26,24,24,0.75);
+-moz-box-shadow: 2px 1px 16px -3px rgba(26,24,24,0.75);
 }
 figure.fig1
 {
@@ -342,6 +345,13 @@ figure.fig1
 {
 	flex-direction: column;
 }
+.fig3
+{
+	border-radius: 15px;
+	box-shadow: 2px 1px 16px -3px rgba(26,24,24,0.75);
+-webkit-box-shadow: 2px 1px 16px -3px rgba(26,24,24,0.75);
+-moz-box-shadow: 2px 1px 16px -3px rgba(26,24,24,0.75);
+}
 
 .fig3 img
 {
@@ -351,7 +361,7 @@ figure.fig1
 }
 figure.fig3
 {
-	margin-left: -10px;
+	margin-left: 15px;
 }
 
 .fig6 img
@@ -361,9 +371,16 @@ figure.fig3
 	object-fit: cover;
 	object-position: top;
 }
+.fig6
+{
+	border-radius: 15px;
+	box-shadow: 2px 1px 16px -3px rgba(26,24,24,0.75);
+-webkit-box-shadow: 2px 1px 16px -3px rgba(26,24,24,0.75);
+-moz-box-shadow: 2px 1px 16px -3px rgba(26,24,24,0.75);
+}
 figure.fig6
 {
-	margin-left: -10px;
+	margin-left: 15px;
 }
 
 .fig4 img
@@ -376,7 +393,14 @@ figure.fig6
 }
 figure.fig4
 {
-	margin-left: -10px;
+	margin-left: 15px;
+}
+.fig4
+{
+	border-radius: 15px;
+	box-shadow: 2px 1px 16px -3px rgba(26,24,24,0.75);
+-webkit-box-shadow: 2px 1px 16px -3px rgba(26,24,24,0.75);
+-moz-box-shadow: 2px 1px 16px -3px rgba(26,24,24,0.75);
 }
 
 #fig5 img
@@ -389,13 +413,28 @@ figure.fig4
 }
 figure.fig7
 {
-	margin-left: -10px;
+	margin-left: 15px;
+}
+.fig7
+{
+	border-radius: 15px;
+	box-shadow: 2px 1px 16px -3px rgba(26,24,24,0.75);
+-webkit-box-shadow: 2px 1px 16px -3px rgba(26,24,24,0.75);
+-moz-box-shadow: 2px 1px 16px -3px rgba(26,24,24,0.75);
+	
 }
 figure.fig8
 {
-	margin-left: -10px;
+	margin-left: 15px;
 }
-
+.fig8
+{
+	border-radius: 15px;
+	box-shadow: 2px 1px 16px -3px rgba(26,24,24,0.75);
+-webkit-box-shadow: 2px 1px 16px -3px rgba(26,24,24,0.75);
+-moz-box-shadow: 2px 1px 16px -3px rgba(26,24,24,0.75);
+	
+}
 
 footer
 {
@@ -424,17 +463,64 @@ footer
     }
     #hotels
     {
+    	width: auto;
     	display: flex;
     	flex-direction: column-reverse;
     }
+    #hebergements
+    {
+    	width: auto;
+    	background-color:white;
+    }
+    #hebergements img
+    {
+    	width: 99%;
+    	height: 66%;
+
+    }
     #image1
     {
+    	width: auto;
     	display: flex;
     	flex-direction: column;
+    }
+    #populaires
+    {
+    	width: auto;
+    	border-radius: 0;
+    }
+     #populaires img
+     {
+     	height: 300px;
+    	width: 330px;
+    	border-bottom-left-radius: 35px;
+    	border-top-left-radius: 35px;
+     }
+    .aligne
+    {
+    	height: auto;
+    	padding: 10px;
+    	margin: 50px;
+	 	border-radius: 35px;
+    }
+    .contour
+    {
+    	width: auto;
+	    height: 420px;
+	    box-shadow: box-shadow: 2px 1px 16px -3px rgba(26,24,24,0.75);
+	    -webkit-box-shadow: 2px 1px 16px -3px rgba(26,24,24,0.75);
+	    -moz-box-shadow: 2px 1px 16px -3px rgba(26,24,24,0.75);
+	    background-color: white;
+        margin: 20px;
+	    margin-left: 5%;
+	    margin-right: 5%;
+	    border-radius: 35px;
+	    padding: 10px;
     }
     #Activites
     {
 
+    	width: fit-content;
     	display: flex;
     	flex-direction: column;
     }
@@ -443,6 +529,10 @@ footer
     	
     	display: flex;
     	flex-direction: column;
+    }
+    footer
+    {
+    	width: auto;
     }
 
 }
