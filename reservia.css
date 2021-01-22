@@ -28,15 +28,16 @@ nav a:hover
 }
 @font-face{
 	font-family: 'Raleway';
-	src: url('static/Raleway-Bold.ttf') format('truetype');
+	src: url('static/Raleway-Medium.ttf') format('truetype');
 }
 body
 {
 	font-family: 'Raleway';
+	font-size: 0.8em;
 }
 header p
 {
-	font-size: 0.5;
+	
 }
 
 .heb 
@@ -312,6 +313,8 @@ aside
 {
 	display: flex;
 	flex-wrap: wrap;
+	padding: 15px;
+	justify-content: space-between;
 	
 }
 #Activites img
@@ -320,6 +323,12 @@ aside
 	flex-direction: row;
 	border-top-left-radius: 15px;
 	border-top-right-radius: 15px; 
+}
+#Activites figure
+{
+	border-radius: 15px;
+	margin: 0px;
+	
 }
 
 .fig1 img
@@ -331,14 +340,9 @@ aside
 }
 .fig1
 {
-	border-radius: 15px;
 	box-shadow: 2px 1px 16px -3px rgba(26,24,24,0.75);
 -webkit-box-shadow: 2px 1px 16px -3px rgba(26,24,24,0.75);
 -moz-box-shadow: 2px 1px 16px -3px rgba(26,24,24,0.75);
-}
-figure.fig1
-{
-	margin-left: 15px;
 }
 
 #fig2 img
@@ -347,7 +351,7 @@ figure.fig1
 }
 .fig3
 {
-	border-radius: 15px;
+
 	box-shadow: 2px 1px 16px -3px rgba(26,24,24,0.75);
 -webkit-box-shadow: 2px 1px 16px -3px rgba(26,24,24,0.75);
 -moz-box-shadow: 2px 1px 16px -3px rgba(26,24,24,0.75);
@@ -359,10 +363,6 @@ figure.fig1
 	height:140px;
 	object-fit: cover;
 }
-figure.fig3
-{
-	margin-left: 15px;
-}
 
 .fig6 img
 {
@@ -373,14 +373,10 @@ figure.fig3
 }
 .fig6
 {
-	border-radius: 15px;
+	
 	box-shadow: 2px 1px 16px -3px rgba(26,24,24,0.75);
 -webkit-box-shadow: 2px 1px 16px -3px rgba(26,24,24,0.75);
 -moz-box-shadow: 2px 1px 16px -3px rgba(26,24,24,0.75);
-}
-figure.fig6
-{
-	margin-left: 15px;
 }
 
 .fig4 img
@@ -391,13 +387,9 @@ figure.fig6
 	object-position: top;
 	background-color: white;
 }
-figure.fig4
-{
-	margin-left: 15px;
-}
 .fig4
 {
-	border-radius: 15px;
+	
 	box-shadow: 2px 1px 16px -3px rgba(26,24,24,0.75);
 -webkit-box-shadow: 2px 1px 16px -3px rgba(26,24,24,0.75);
 -moz-box-shadow: 2px 1px 16px -3px rgba(26,24,24,0.75);
@@ -411,25 +403,17 @@ figure.fig4
 	object-position: top;
 	flex-direction: column;
 }
-figure.fig7
-{
-	margin-left: 15px;
-}
 .fig7
 {
-	border-radius: 15px;
+	
 	box-shadow: 2px 1px 16px -3px rgba(26,24,24,0.75);
 -webkit-box-shadow: 2px 1px 16px -3px rgba(26,24,24,0.75);
 -moz-box-shadow: 2px 1px 16px -3px rgba(26,24,24,0.75);
 	
 }
-figure.fig8
-{
-	margin-left: 15px;
-}
 .fig8
 {
-	border-radius: 15px;
+	
 	box-shadow: 2px 1px 16px -3px rgba(26,24,24,0.75);
 -webkit-box-shadow: 2px 1px 16px -3px rgba(26,24,24,0.75);
 -moz-box-shadow: 2px 1px 16px -3px rgba(26,24,24,0.75);
