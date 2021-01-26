@@ -16,6 +16,8 @@
 {
 	list-style: none;
 	display: flex;
+	font-family: 'Raleway-Regular';
+	font-size: 0.8em;
 }
 nav li
 {
@@ -26,32 +28,59 @@ nav a:hover
 	color: grey;
 	
 }
-@font-face{
+@font-face
+{
 	font-family: 'Raleway';
-	src: url('static/Raleway-Medium.ttf') format('truetype');
+	src: url('static/Raleway-Extra-Bold.ttf') format('truetype');
 }
-body
+@font-face
+{
+	font-family: 'Raleway-Regular';
+	src: url('static/Raleway-Regular.ttf') format('truetype');
+}
+@font-face
+{
+	font-family: 'Raleway-Black';
+	src: url('static/Raleway-Black.ttf') format('truetype');
+}
+	
+h1
+{
+	font-family: 'Raleway';
+	font-size: 1.5em;
+}
+h3
 {
 	font-family: 'Raleway';
 	font-size: 0.8em;
 }
-header p
+h2
 {
+	font-family: 'Raleway';
+	font-size: 1em;
+}
 	
+button
+{
+	font-family: 'Raleway';
+	font-size: 0.8em;
 }
 
 .heb 
 {
 	color: #0065FC;
+	text-decoration: overline;
 }
 .act
 {
 	color: black;
+	text-decoration: none;
 }
 .insc
 {
 	color: #0065FC;
 	font-weight: bold;
+	text-decoration: none;
 
 }
 #formulaire h1, #formulaire p
@@ -60,8 +89,9 @@ header p
 }
 #formulaire p
 {
-	font-size: 1.1em;
+	font-size: 0.8em;
 	margin-left: 5px;
+	font-family: 'Raleway-Regular';
 }
 
 #recherche
@@ -83,11 +113,13 @@ header p
 	height: 100%;
 	box-sizing: border-box;
 	border:0.5px solid rgb(222,222,222);
+	padding: 15px;
+	font-family: 'Raleway';
 }
 #recherche button
 {
 	height: 100%;
-	border-radius: 0px 15px 15px 0px;
+	border-radius: 0px 10px 10px 0px;
 	border:none;
 	background-color: #0065FC;
 	color: white;
@@ -96,11 +128,11 @@ i.localisation
 {
 	color: black;
 	background-color: #F2F2F2;
-	padding-left: 10px;
-	padding-right: 10px;
+	padding-left: 13px;
+	padding-right: 13px;
 	display: flex;
 	align-items: center;
-	border-radius: 15px 0px 0px 15px;
+	border-radius: 10px 0px 0px 10px;
 }
 .filtres
 {
@@ -151,15 +183,19 @@ i.localisation
 {
 	border-radius: 15px;
 }
+.informations
+{
+	margin-bottom: 15px;
+}
 .informations i
 {
 	color: #0065FC; 
-	width: 20px;
-	height: 20px;
+	width: 15px;
+	height: 15px;
 	border:1.5px solid rgb(222,222,222);
 	border-radius: 20px;
 	text-align: center;
-	line-height: 1.5;
+	line-height: 1.9;
 	margin-right: 10px;
 	font-size: 	0.6em;
 }
@@ -202,7 +238,7 @@ i.localisation
  }
  .plus, p
  {
- 	margin: 25px;
+ 	line-height: 25px;
  }
  .contour
  {
@@ -225,6 +261,8 @@ figcaption h3
 {
 	font-size: 106%;
 	margin: 0;
+	font-family: 'Raleway';
+	font-size: 0.8em;
 }
 .texte
 {
@@ -237,6 +275,8 @@ figcaption h3
 figcaption p
 {
 	margin: 1%;
+	font-family: 'Raleway-Regular';
+	font-size: 0.8em;
 
 }
 figcaption i
@@ -341,8 +381,8 @@ aside
 .fig1
 {
 	box-shadow: 2px 1px 16px -3px rgba(26,24,24,0.75);
--webkit-box-shadow: 2px 1px 16px -3px rgba(26,24,24,0.75);
--moz-box-shadow: 2px 1px 16px -3px rgba(26,24,24,0.75);
+	-webkit-box-shadow: 2px 1px 16px -3px rgba(26,24,24,0.75);
+	-moz-box-shadow: 2px 1px 16px -3px rgba(26,24,24,0.75);
 }
 
 #fig2 img
@@ -353,8 +393,8 @@ aside
 {
 
 	box-shadow: 2px 1px 16px -3px rgba(26,24,24,0.75);
--webkit-box-shadow: 2px 1px 16px -3px rgba(26,24,24,0.75);
--moz-box-shadow: 2px 1px 16px -3px rgba(26,24,24,0.75);
+	-webkit-box-shadow: 2px 1px 16px -3px rgba(26,24,24,0.75);
+	-moz-box-shadow: 2px 1px 16px -3px rgba(26,24,24,0.75);
 }
 
 .fig3 img
@@ -375,8 +415,9 @@ aside
 {
 	
 	box-shadow: 2px 1px 16px -3px rgba(26,24,24,0.75);
--webkit-box-shadow: 2px 1px 16px -3px rgba(26,24,24,0.75);
--moz-box-shadow: 2px 1px 16px -3px rgba(26,24,24,0.75);
+	-webkit-box-shadow: 2px 1px 16px -3px rgba(26,24,24,0.75);
+	-moz-box-shadow: 2px 1px 16px -3px rgba(26,24,24,0.75);
+	margin-top: 20px !important;
 }
 
 .fig4 img
@@ -391,8 +432,8 @@ aside
 {
 	
 	box-shadow: 2px 1px 16px -3px rgba(26,24,24,0.75);
--webkit-box-shadow: 2px 1px 16px -3px rgba(26,24,24,0.75);
--moz-box-shadow: 2px 1px 16px -3px rgba(26,24,24,0.75);
+	-webkit-box-shadow: 2px 1px 16px -3px rgba(26,24,24,0.75);
+	-moz-box-shadow: 2px 1px 16px -3px rgba(26,24,24,0.75);
 }
 
 #fig5 img
@@ -407,16 +448,17 @@ aside
 {
 	
 	box-shadow: 2px 1px 16px -3px rgba(26,24,24,0.75);
--webkit-box-shadow: 2px 1px 16px -3px rgba(26,24,24,0.75);
--moz-box-shadow: 2px 1px 16px -3px rgba(26,24,24,0.75);
+	-webkit-box-shadow: 2px 1px 16px -3px rgba(26,24,24,0.75);
+	-moz-box-shadow: 2px 1px 16px -3px rgba(26,24,24,0.75);
 	
 }
 .fig8
 {
 	
 	box-shadow: 2px 1px 16px -3px rgba(26,24,24,0.75);
--webkit-box-shadow: 2px 1px 16px -3px rgba(26,24,24,0.75);
--moz-box-shadow: 2px 1px 16px -3px rgba(26,24,24,0.75);
+	-webkit-box-shadow: 2px 1px 16px -3px rgba(26,24,24,0.75);
+	-moz-box-shadow: 2px 1px 16px -3px rgba(26,24,24,0.75);
+	margin-top: 20px !important;
 	
 }
 
@@ -426,10 +468,38 @@ footer
 	display: flex;
 	justify-content: space-around;
 	background-color: #F2F2F2;
+}
+footer h1
+{
+	font-family: 'Raleway';
+	font-size: 0.9em;
+}
+footer p
+{
+	font-family: 'Raleway-Regular';
+	font-size: 0.8em;
+}
+.A_propos
+{
+    padding: 25px;
+    margin-left: -70px;
 
 }
+.Nos_hébergements
+{
+	padding: 25px;
+    padding-right: 80px;
+}
+.Assistance
+{
+	padding: 25px;
+    padding-right: 75px;
+    margin-right: 100px;
+}
+
 @media all and (max-width: 1024px)
 {
+
 	#Maquette
 	{
 		width: auto;
