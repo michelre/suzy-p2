@@ -529,15 +529,47 @@ footer p
     	padding: 55px;
     	line-height: 1;
 	}
-	p
+	#recherche p
+	{
+    	height: 60px;
+    	margin-top: 25px;
+    }
+    #recherche  input
+    {
+    	font-size: 29px;
+    	font-weight: 700;
+    }
+    i.localisation
+    {
+    	padding-left: 20px;
+    	padding-right: 20px;
+    	font-size: 27px;
+    }
+	.filtres p, .filtres h3
 	{
 		font-size: 1.8em;
 	}
-	.imformation i
+	.informations i
 	{
 	    width: 40px;
     	height: 40px;
 	    border-radius: 30px;
+	    line-height: 1.8;
+	    margin-right: 35px;
+	}
+	.filtres button 
+	{
+		font-size: 1.8em;
+	    border-radius: 40px;
+	    padding-right: 40px;
+    	margin-top: 25px;
+    	height: 70px;
+	}
+	.filtres i
+	{
+		width: 70px;
+   	 	height: 70px;
+   	 	margin-right: 20px;
 	}
 	#formulaire p
 	{
@@ -548,6 +580,7 @@ footer p
     	display: flex;
     	flex-direction: column;
     	align-items: flex-start;
+	    margin: 58px;
     }
     #hotels
     {
@@ -583,12 +616,17 @@ footer p
     	width: auto;
     	border-radius: 0;
     }
+    
      #populaires img
      {
      	height: 300px;
     	width: 330px;
     	border-bottom-left-radius: 35px;
     	border-top-left-radius: 35px;
+     }
+     figcaption h3, figcaption p
+     {
+     	font-size: 2em;
      }
     .aligne
     {
