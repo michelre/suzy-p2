@@ -28,6 +28,11 @@ nav a:hover
 	color: grey;
 	
 }
+
+#navigation p
+{
+    margin: 8px;
+}
 @font-face
 {
 	font-family: 'Raleway';
@@ -507,7 +512,36 @@ footer p
 	ul
 	{
 		display: flex;
+		flex-wrap: wrap-reverse;
+	}
+	/*#navigation
+	{
+		display: flex;
 		flex-direction: column-reverse;
+	}*/
+	h1, p
+	{
+		font-family: 'Raleway';
+	}
+	h1
+	{
+    	font-size: 2.29em;
+    	padding: 55px;
+    	line-height: 1;
+	}
+	p
+	{
+		font-size: 1.8em;
+	}
+	.imformation i
+	{
+	    width: 40px;
+    	height: 40px;
+	    border-radius: 30px;
+	}
+	#formulaire p
+	{
+		margin-left: 57px;
 	}
     .filtres
     {
@@ -531,6 +565,12 @@ footer p
     	width: 99%;
     	height: 66%;
 
+    }
+    h2
+    {
+    	font-family: 'Raleway';
+    	font-size: 2.80em;
+    	margin: 55px;
     }
     #image1
     {
@@ -574,9 +614,21 @@ footer p
     #Activites
     {
 
-    	width: fit-content;
+    	width: auto;
     	display: flex;
     	flex-direction: column;
+    }
+    #Activites img
+    {
+    	height: 330px;
+    	width: 100%;
+    	
+    }
+    #Activites figure
+    {
+    	border-radius: 15px;
+	    margin: 5px;
+	    margin-top: 40px;
     }
     #Pied
     {
