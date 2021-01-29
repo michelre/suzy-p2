@@ -1,0 +1,403 @@
+#Maquette
+{
+	width: 90%;
+	margin: auto;
+	
+}
+
+.main_header
+{
+	display: flex;
+	justify-content: space-between;
+	align-items: flex-end;
+}
+
+ ul
+{
+	list-style: none;
+	display: flex;
+}
+#formulaire p
+{
+	font-size: 1.3em;
+	margin-left: 5px;
+}
+.heb 
+{
+	color: blue;
+}
+.act
+{
+	color: black;
+}
+.insc
+{
+	color: blue;
+	font-weight: bold;
+
+}
+nav li
+{
+	margin-right: 50px; 
+}
+nav a:hover
+{
+	color: grey;
+	
+}
+header p
+{
+	font-size: 1.5;
+}
+#recherche
+{
+	justify-content: space-around;
+	border-radius: 15px;
+	height: 50px;
+	
+}
+#recherche p
+{
+	height: 35px;
+	display: flex;
+	margin-left: 5px;
+}
+#recherche input
+{
+	height: 100%;
+	box-sizing: border-box;
+	border:0.5px solid rgb(222,222,222);
+}
+#recherche button
+{
+	height: 100%;
+	border-radius: 0px 15px 15px 0px;
+	border:none;
+	background-color: blue;
+	color: white;
+}
+i.localisation
+{
+	color: black;
+	background-color: rgb(222,222,222);
+	padding-left: 10px;
+	padding-right: 10px;
+	display: flex;
+	align-items: center;
+	border-radius: 15px 0px 0px 15px;
+}
+.filtres
+{
+	display: flex;
+	justify-content: flex-start;
+	text-align: center;
+	align-items: center;
+	margin-left: 5px;
+}
+.filtres button
+{
+	margin-right: 30px;
+	border-radius: 18px;
+	height: 37px;
+	border-left: none;
+	border:1px solid rgb(222,222,222);
+	padding-right: 0px;
+	margin-top: 1px;
+	padding: 0;
+}	
+.filtres h3
+{
+	margin-right: 30px;
+}
+.filtres i
+{
+	color: blue;
+	width: 35px;
+	height: 35px;
+	border:none;
+	border-radius: 35px;
+	text-align: center;
+	line-height: 2.3;
+	margin-right: 20px;
+	background-color: rgb(202,223,251);
+}
+.logo
+{
+	text-align: justify;
+	line-height: 2.3;
+}
+	
+}
+
+#selection
+{
+	border-radius: 15px;
+}
+.informations i
+{
+	color: blue; 
+	width: 20px;
+	height: 20px;
+	border:1.5px solid rgb(222,222,222);
+	border-radius: 20px;
+	text-align: center;
+	line-height: 1.5;
+	margin-right: 10px;
+	font-size: 	0.6em;
+}
+
+#hotels
+{
+	display: flex;
+	justify-content: space-around;
+
+}
+ #hebergements
+{
+	width: 60%;
+	height: 20%;
+	background-color: rgb(222,222,222);
+	border-radius: 15px;
+}
+#hebergements img
+{
+	width: 97%;
+	height: 50%;
+	border-top-right-radius: 15px;
+	border-top-left-radius: 15px;
+	margin: 3px;
+	object-fit: cover;
+}
+#image1
+{
+	display: flex;
+	flex-wrap: wrap;
+	padding-right: 1%;
+	padding-left: 2%;
+	margin-left: -8px;
+	margin-right: -8px; 
+}
+ 
+ #hebergement, h2
+ {
+ 	margin: 25px;
+ }
+ .plus, p
+ {
+ 	margin: 25px;
+ }
+ .contour
+ {
+ 	
+	border-radius: 15px;
+	background-color: white;
+	width: 29%;
+	height: 200px;
+	margin-left: 2%;
+	margin-right: 2%;
+	margin-top: 0%;
+	
+ }
+figcaption
+{
+	padding: 5%;
+	
+}
+figcaption h3
+{
+	font-size: 106%;
+	margin: 0;
+}
+.texte
+{
+	line-height: 3;
+}
+.texte1
+{
+	line-height: 4;
+}
+figcaption p
+{
+	margin: 1%;
+
+}
+figcaption i
+{
+
+}
+#populaires
+{
+	width: 36%;
+	height: 40%;
+	background-color: rgb(222,222,222);
+	border-radius: 15px;
+}
+#populaires h3
+{
+	line-height: 1;
+}
+.pop i
+{
+	color: black;
+}
+
+#populaires img
+{
+	width: 130px;
+	height: 143px;
+	border-bottom-left-radius: 15px;
+	border-top-left-radius: 15px;
+	margin: 3px; 
+	object-fit: cover;
+	
+}
+.aligne
+{
+	display: flex;
+	justify-content: flex-start;
+	align-items: flex-start;
+	border-radius: 15px;
+	background-color: white;
+	height: 150px;
+	margin-right: 15px;
+	margin-left: 15px;
+
+}
+.pop
+{
+	display: flex;
+	justify-content: space-between;
+	color: black;
+}
+
+.fa_star
+{
+	color: blue;
+}
+.fas
+{
+	color: blue;
+}
+.etoile 
+{
+	color: rgb(222,222,222);
+}
+
+
+aside
+{
+	width: 36%;
+	 background-color: rgb(222,222,222);
+	  border-radius: 15px;
+}
+
+#Activites 
+{
+	display: flex;
+	flex-wrap: wrap;
+	
+}
+#Activites img
+{
+	display: flex;
+	flex-direction: row;
+	border-top-left-radius: 15px;
+	border-top-right-radius: 15px; 
+}
+
+.fig1 img
+{
+	width: 244px;
+	height:300px;
+	object-fit: cover;
+	object-position: top;
+}
+figure.fig1
+{
+	margin-left: 15px;
+}
+
+#fig2 img
+{
+	flex-direction: column;
+}
+
+.fig3 img
+{
+	width: 244px;
+	height:140px;
+	object-fit: cover;
+}
+figure.fig3
+{
+	margin-left: -10px;
+}
+
+.fig6 img
+{
+	width: 244px;
+	height:100px;
+	object-fit: cover;
+	object-position: top;
+}
+figure.fig6
+{
+	margin-left: -10px;
+}
+
+.fig4 img
+{
+	width: 244px;
+	height:300px;
+	object-fit: cover;
+	object-position: top;
+	background-color: white;
+}
+figure.fig4
+{
+	margin-left: -10px;
+}
+
+#fig5 img
+{
+	width: 244px;
+	height:120px;
+	object-fit: cover;
+	object-position: top;
+	flex-direction: column;
+}
+figure.fig7
+{
+	margin-left: -10px;
+}
+figure.fig8
+{
+	margin-left: -10px;
+}
+
+
+footer
+{
+	width: 100%;
+	display: flex;
+	justify-content: space-around;
+	background-color: rgb(222,222,222);
+
+}
+@media all and (max-width: 1024px)
+{
+    #Maquette
+    {
+        width: auto;
+    }
+}
+
+
+
+
+
+
+
+
+
+
