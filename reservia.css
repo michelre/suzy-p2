@@ -244,6 +244,9 @@ i.localisation
  .plus, p
  {
  	line-height: 25px;
+ 	font-family: 'Raleway';
+    font-size: 0.82em;
+    margin-left: 20px;
  }
  .contour
  {
@@ -478,6 +481,7 @@ footer h1
 {
 	font-family: 'Raleway';
 	font-size: 0.9em;
+	margin-left: 20px;
 }
 footer p
 {
@@ -616,7 +620,7 @@ footer p
     	width: auto;
     	border-radius: 0;
     }
-    
+
      #populaires img
      {
      	height: 300px;
