@@ -9,7 +9,7 @@
 {
 	display: flex;
 	justify-content: space-between;
-	align-items: flex-end;
+	align-items: center;
 }
 
  ul
@@ -29,11 +29,6 @@ nav a:hover
 	
 }
 
-@font-face
-{
-	font-family: 'Raleway';
-	src: url('static/Raleway-Extra-Bold.ttf') format('truetype');
-}
 @font-face
 {
 	font-family: 'Raleway-Regular';
@@ -94,7 +89,10 @@ button
 	margin-left: 5px;
 	font-family: 'Raleway-Regular';
 }
-
+.loup
+{
+	display: none;
+}
 #recherche
 {
 	justify-content: space-around;
@@ -152,7 +150,7 @@ i.localisation
 	border:1px solid rgb(222,222,222);
 	padding: 0;
 	padding-right: 10px;
-	margin-top: 1px;
+	margin-top:0px;
 	
 }	
 .filtres h3
@@ -210,7 +208,6 @@ i.localisation
  #hebergements
 {
 	width: 60%;
-	height: 20%;
 	background-color: #F2F2F2;
 	border-radius: 15px;
 }
@@ -237,7 +234,7 @@ i.localisation
  {
  	margin: 25px;
  }
- .plus, p
+ p.plus
  {
  	line-height: 25px;
  	font-family: 'Raleway';
@@ -477,7 +474,6 @@ footer h1
 {
 	font-family: 'Raleway';
 	font-size: 0.9em;
-	margin-left: 20px;
 }
 footer p
 {
@@ -509,41 +505,71 @@ footer p
 	{
 		width: auto;
 	}
+	.main_header
+	{
+		margin-left: 60px;
+	}
+	.main_header img
+	{
+		width: 240px;
+    	height: auto;
+	}
 	ul
 	{
 		display: flex;
 		flex-wrap: wrap-reverse;
+		font-size: 33px;
+		line-height: 2;
 	}
-	/*#navigation
-	{
-		display: flex;
-		flex-direction: column-reverse;
-	}*/
-	h1, p
-	{
-		font-family: 'Raleway';
-	}
+
 	h1
 	{
-    	font-size: 2.29em;
+		font-family: 'Raleway';
+    	font-size: 3.29em;
     	padding: 55px;
     	line-height: 1;
 	}
 	#recherche p
 	{
-    	height: 60px;
+    	height: 100px;
     	margin-top: 25px;
+    	font-size: 22px;
+    }
+    .pointe
+    {
+    	display: none;
+    }
+    button.loup
+    {
+    	display: flex;
+    	width: 100px;
+    	font-size: 35px;
+    	align-items: center;
+    	padding-left: 35px;
+    	border-radius: 30px 30px 30px 30px!important;
+    	margin-left: -28px;
+	    
+    }
+    i.loup
+    {
+    	font-size: 100px;
+    }
+    #recherche .fas
+    {
+    	color: white;
     }
     #recherche  input
     {
-    	font-size: 29px;
+    	font-size: 39px;
     	font-weight: 700;
     }
     i.localisation
     {
-    	padding-left: 20px;
-    	padding-right: 20px;
-    	font-size: 27px;
+    	padding-left: 40px;
+    	padding-right: 40px;
+    	font-size: 40px;
+    	border-radius: 30px 0px 0px 30px;
+    	color: black!important;
     }
 	.filtres p, .filtres h3
 	{
@@ -559,17 +585,19 @@ footer p
 	}
 	.filtres button 
 	{
-		font-size: 1.8em;
-	    border-radius: 40px;
+		font-size: 2em;
+	    border-radius: 65px;
 	    padding-right: 40px;
     	margin-top: 25px;
-    	height: 70px;
+    	height: 120px;
 	}
 	.filtres i
 	{
-		width: 70px;
-   	 	height: 70px;
+		width: 120px;
+   	 	height: 120px;
    	 	margin-right: 20px;
+   	 	line-height: 4.0;
+   	 	border-radius: 65px;
 	}
 	#formulaire p
 	{
@@ -596,14 +624,19 @@ footer p
     #hebergements img
     {
     	width: 99%;
-    	height: 66%;
+    	height: 57%;
 
     }
-    h2
+    #hebergements h2
     {
     	font-family: 'Raleway';
-    	font-size: 2.80em;
+    	font-size: 2.5em;
     	margin: 55px;
+    }
+    p.plus 
+    {
+	    margin-left: 60px;
+	    font-size: 2.1em;
     }
     #image1
     {
@@ -619,14 +652,15 @@ footer p
 
      #populaires img
      {
-     	height: 300px;
-    	width: 330px;
+     	height: 364px;
+    	width: 350px;
     	border-bottom-left-radius: 35px;
     	border-top-left-radius: 35px;
      }
      figcaption h3, figcaption p
      {
      	font-size: 2em;
+     	
      }
     .aligne
     {
@@ -638,16 +672,26 @@ footer p
     .contour
     {
     	width: auto;
-	    height: 420px;
+	    height: 465px;
 	    box-shadow: box-shadow: 2px 1px 16px -3px rgba(26,24,24,0.75);
 	    -webkit-box-shadow: 2px 1px 16px -3px rgba(26,24,24,0.75);
 	    -moz-box-shadow: 2px 1px 16px -3px rgba(26,24,24,0.75);
 	    background-color: white;
-        margin: 20px;
+        margin: 30px;
 	    margin-left: 5%;
 	    margin-right: 5%;
 	    border-radius: 35px;
 	    padding: 10px;
+    }
+    .contour figcaption
+    {
+    	padding: 3%;
+    	padding-top: 4px;
+    }
+    #Loisirs h2
+    {
+    	font-size: 0.9em;
+    	margin-left: 55px;
     }
     #Activites
     {
@@ -658,16 +702,20 @@ footer p
     }
     #Activites img
     {
-    	height: 330px;
+    	height: 370px;
     	width: 100%;
+    	border-top-left-radius: 40px;
+    	border-top-right-radius: 40px;
     	
     }
     #Activites figure
     {
-    	border-radius: 15px;
-	    margin: 5px;
-	    margin-top: 40px;
+    	border-radius: 40px;
+	    margin: 40px;
+	    margin-top: 0px;
+	    height: 480px;
     }
+    
     #Pied
     {
     	
@@ -677,6 +725,22 @@ footer p
     footer
     {
     	width: auto;
+   
+    }
+    #Pied h1
+    {
+    	font-size: 1.5em;
+    	margin-left: 60px;
+    }
+    #Pied p
+    {
+    	font-size: 1.8em;
+    }
+    .Nos_hébergements h1
+    {
+    	font-size: 1.5em;
+    	margin-left: 60px;
+    }
     }
 
 }
