@@ -1,0 +1,364 @@
+#Maquette
+{
+	width: 100%;
+	margin: auto;
+	
+}
+
+.main_header
+{
+	display: flex;
+	justify-content: space-between;
+	align-items: flex-end;
+}
+
+ ul
+{
+	list-style: none;
+	display: flex;
+}
+.heb 
+{
+	color: blue;
+}
+.act
+{
+	color: black;
+}
+.insc
+{
+	color: blue;
+	font-weight: bold;
+
+}
+nav li
+{
+	margin-right: 50px; 
+}
+nav a:hover
+{
+	color: grey;
+	
+}
+header p
+{
+	font-size: 1.5;
+}
+form 
+{
+	justify-content: space-around;
+	border-radius: 15px;
+	
+}
+form input
+{
+	
+	width: 200px;
+	height: 40px;
+
+}
+
+form button
+{
+	color: white;
+	background-color: blue;
+	width: 100px;
+	height: 40px;
+}
+.filtres
+{
+	display: flex;
+
+
+
+}
+
+
+input
+{
+	border-radius: 15px;
+	width: 200px;
+	height: 20px;
+}
+.informations i
+{
+	color: blue;
+	width: 20px; 
+}
+
+#hotels
+{
+	display: flex;
+	justify-content: space-around;
+
+}
+ #hebergements
+{
+	width: 60%;
+	height: 40%;
+	background-color: rgb(222,222,222);
+	border-radius: 15px;
+}
+ #hebergements img
+ {
+ 	justify-content: flex-start;
+ 	flex-wrap: wrap;
+ 	width: 33%;
+ 	height: 40%;
+ }
+ #hebergement, h2
+ {
+ 	margin: 25px;
+ }
+ .plus, p
+ {
+ 	margin: 25px;
+ }
+
+#populaires
+{
+	width: 36%;
+	height: 40%;
+	background-color: rgb(222,222,222);
+	border-radius: 15px;
+}
+.pop i
+{
+	color: black;
+}
+
+#populaires img
+{
+	width: 130px;
+	height: 143px;
+	border-bottom-left-radius: 15px;
+	border-top-left-radius: 15px;
+	margin: 3px; 
+	object-fit: cover;
+	
+}
+.aligne
+{
+	display: flex;
+	justify-content: flex-start;
+	align-items: flex-start;
+	border-radius: 15px;
+	background-color: white;
+	height: 150px;
+
+}
+.pop
+{
+	display: flex;
+	justify-content: space-between;
+	color: black;
+}
+
+#image1 
+{
+	display: flex;
+	justify-content: space-between;
+	flex-wrap: wrap;
+	
+	
+}
+
+#image1 img
+{
+	display: flex;
+	width: 200px;
+	height: 150px;
+	border-radius: 15px;
+
+}
+.fa_star
+{
+	color: blue;
+}
+.fas
+{
+	color: blue;
+}
+.etoile 
+{
+	color: rgb(222,222,222);
+}
+
+
+aside
+{
+	width: 36%;
+	 background-color: rgb(222,222,222);
+	  border-radius: 15px;
+}
+
+#Loisirs figure figcaption
+{
+
+	display: flex;
+	justify-content: space-between;
+
+}
+#Activites 
+{
+	display: flex;
+	flex-wrap: wrap;
+	
+}
+#Activites img
+{
+	display: flex;
+	flex-direction: row;
+	border-radius: 15px; 
+}
+.fig1 img
+{
+	width: 200px;
+	height:300px;
+	object-fit: cover;
+	object-position: top;
+	background-color: white;
+}
+#fig2 img
+{
+	flex-direction: column;
+}
+.fig3 img
+{
+	width: 200px;
+	height:135px;
+	object-fit: cover;
+}
+.fig6 img
+{
+	width: 200px;
+	height:90px;
+	object-fit: cover;
+	object-position: top;
+}
+.fig4 img
+{
+	width: 200px;
+	height:300px;
+	object-fit: cover;
+	object-position: top;
+	background-color: white;
+}
+#fig5 img
+{
+	width: 200px;
+	height:113px;
+	object-fit: cover;
+	object-position: top;
+	flex-direction: column;
+}
+
+.essai1
+{
+	float: left;
+}
+.etoile i
+{
+	color: transparent;
+}
+
+#Pied footer
+{
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	border-radius: 15px;
+	background-color: rgb(222,222,222);
+}
+footer
+{
+	width: 100%;
+}
+#pied
+{
+	display: flex;
+	justify-content: space-around;
+	background-color: rgb(222,222,222);
+}
+
+#specific 
+{
+	border: none;
+}
+
+
+
+
+.filtres i {
+	border-radius: 30px;
+    background-color: #deebff;
+    height: 36px;
+    width: 36px;
+    text-align: center;
+    line-height: 2.3;
+    border:none;
+}
+
+.bouton
+{
+	display: flex;
+	border-radius: 20px;
+	height: 35px;
+	margin-right: 30px;
+	background-color: white;
+	border: solid;
+	border-color: #f2f2f2;
+	border-width: 2px;
+	justify-content:space-between;
+	align-items: center;
+	padding-right: 5px;
+	border-left: none;
+}
+
+.icone
+{
+	height: 35px;
+	width: 
+}
+
+#form
+{
+	display: flex;
+	align-items: center;
+	border-radius: 15px;
+	border:solid;
+	border-color: #f2f2f2;
+	height: 40px;
+	width:45%;
+	justify-content: space-between;
+
+}
+#form input{
+	border:none;
+}
+
+#form i{
+	height: 40px;
+	width: 40px;
+	background-color:#f2f2f2; 
+}
+
+#recherche
+{
+	display:flex;
+	align-items: center;
+	justify-content: space-between;
+}
+#recherche p
+{
+	background-color: blue;
+	height: 40px;
+	vertical-align: middle;
+	margin: 0px;
+	width: 33%;
+}
+
+
+
+
+
