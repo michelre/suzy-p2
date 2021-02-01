@@ -467,8 +467,9 @@ footer
 {
 	width: 100%;
 	display: flex;
-	justify-content: space-around;
+	justify-content: space-between;
 	background-color: #F2F2F2;
+	padding: 25px;
 }
 footer h1
 {
@@ -480,23 +481,10 @@ footer p
 	font-family: 'Raleway-Regular';
 	font-size: 0.8em;
 }
-.A_propos
-{
-    padding: 25px;
-    margin-left: -70px;
-
-}
-.Nos_hébergements
-{
-	padding: 25px;
-    padding-right: 80px;
-}
-.Assistance
-{
-	padding: 25px;
-    padding-right: 75px;
-    margin-right: 100px;
-}
+.fin
+    {
+    	width: 33%;
+    }
 
 @media all and (max-width: 1024px)
 {
@@ -590,6 +578,8 @@ footer p
 	    padding-right: 40px;
     	margin-top: 25px;
     	height: 120px;
+    	background-color: white;
+    	border: 2px solid rgb(222,222,222);
 	}
 	.filtres i
 	{
@@ -598,6 +588,11 @@ footer p
    	 	margin-right: 20px;
    	 	line-height: 4.0;
    	 	border-radius: 65px;
+	}
+	#boutons
+	{
+		display: flex;
+		flex-wrap: wrap;
 	}
 	#formulaire p
 	{
@@ -627,7 +622,7 @@ footer p
     	height: 57%;
 
     }
-    #hebergements h2
+    #hotels h2
     {
     	font-family: 'Raleway';
     	font-size: 2.5em;
@@ -649,7 +644,10 @@ footer p
     	width: auto;
     	border-radius: 0;
     }
-
+    h2.pop
+    {
+    	font-size: 2.5em;
+    }
      #populaires img
      {
      	height: 364px;
@@ -727,21 +725,11 @@ footer p
     	width: auto;
    
     }
-    #Pied h1
+    .fin h2
     {
     	font-size: 1.5em;
-    	margin-left: 60px;
     }
-    #Pied p
-    {
-    	font-size: 1.8em;
-    }
-    .Nos_hébergements h1
-    {
-    	font-size: 1.5em;
-    	margin-left: 60px;
-    }
-    }
+    
 
 }
 
