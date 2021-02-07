@@ -1,8 +1,12 @@
+body {
+	margin: 0;
+}
+
 #Maquette
 {
 	width: 90%;
 	margin: auto;
-	
+
 }
 
 .main_header
@@ -10,6 +14,7 @@
 	display: flex;
 	justify-content: space-between;
 	align-items: center;
+	flex-wrap: wrap;
 }
 
  ul
@@ -19,15 +24,26 @@
 	font-family: 'Raleway-Regular';
 	font-size: 0.8em;
 }
+
+ nav {
+	 display: flex;
+ }
+
 nav li
 {
-	margin-right: 50px; 
+	margin-right: 50px;
 }
 nav a:hover
 {
 	color: grey;
-	
+
 }
+
+#menu {
+	display: flex;
+    flex-shrink: 0;
+}
+
 @font-face
 {
 	font-family: 'Raleway-Regular';
@@ -38,7 +54,7 @@ nav a:hover
 	font-family: 'Raleway-Black';
 	src: url('static/Raleway-Black.ttf') format('truetype');
 }
-	
+
 h1
 {
 	font-family: 'Raleway';
@@ -54,18 +70,13 @@ h2
 	font-family: 'Raleway';
 	font-size: 1em;
 }
-	
+
 button
 {
 	font-family: 'Raleway';
 	font-size: 0.8em;
 }
 
-.heb 
-{
-	color: #0065FC;
-	text-decoration: overline;
-}
 .act
 {
 	color: black;
@@ -98,7 +109,7 @@ button
 	border-radius: 15px;
 	margin-top: 10px;
 	margin-bottom: 10px;
-	
+
 }
 #recherche p
 {
@@ -150,8 +161,8 @@ i.localisation
 	padding: 0;
 	padding-right: 10px;
 	margin-top:0px;
-	
-}	
+
+}
 .filtres h3
 {
 	margin-right: 30px;
@@ -185,7 +196,7 @@ i.localisation
 }
 .informations i
 {
-	color: #0065FC; 
+	color: #0065FC;
 	width: 15px;
 	height: 15px;
 	border:1.5px solid rgb(222,222,222);
@@ -229,7 +240,7 @@ i.localisation
 	padding-right: 1%;
 	padding-left: 2%;
 	margin-left: -8px;
-	margin-right: -8px; 
+	margin-right: -8px;
 }
 
  p.plus
@@ -241,7 +252,7 @@ i.localisation
  }
  .contour
  {
- 	
+
 	border-radius: 15px;
 	background-color: white;
 	width: 29%;
@@ -249,12 +260,12 @@ i.localisation
 	margin-left: 2%;
 	margin-right: 2%;
 	margin-top: 0%;
-	
+
 }
 figcaption
 {
 	padding: 5%;
-	
+
 }
 figcaption h3
 {
@@ -302,9 +313,9 @@ figcaption p
 	height: 143px;
 	border-bottom-left-radius: 15px;
 	border-top-left-radius: 15px;
-	margin: 3px; 
+	margin: 3px;
 	object-fit: cover;
-	
+
 }
 .aligne
 {
@@ -333,7 +344,7 @@ figcaption p
 {
 	color: #0065FC;
 }
-.etoile 
+.etoile
 {
 	color: #F2F2F2;
 }
@@ -346,26 +357,26 @@ aside
   	border-radius: 15px;
 }
 
-#Activites 
+#Activites
 {
 	display: flex;
 	flex-wrap: wrap;
 	padding: 15px;
 	justify-content: space-between;
-	
+
 }
 #Activites img
 {
 	display: flex;
 	flex-direction: row;
 	border-top-left-radius: 15px;
-	border-top-right-radius: 15px; 
+	border-top-right-radius: 15px;
 }
 #Activites figure
 {
 	border-radius: 15px;
 	margin: 0px;
-	
+
 }
 
 .fig1 img
@@ -410,7 +421,7 @@ aside
 }
 .fig6
 {
-	
+
 	box-shadow: 2px 1px 16px -3px rgba(26,24,24,0.75);
 	-webkit-box-shadow: 2px 1px 16px -3px rgba(26,24,24,0.75);
 	-moz-box-shadow: 2px 1px 16px -3px rgba(26,24,24,0.75);
@@ -427,7 +438,7 @@ aside
 }
 .fig4
 {
-	
+
 	box-shadow: 2px 1px 16px -3px rgba(26,24,24,0.75);
 	-webkit-box-shadow: 2px 1px 16px -3px rgba(26,24,24,0.75);
 	-moz-box-shadow: 2px 1px 16px -3px rgba(26,24,24,0.75);
@@ -443,20 +454,20 @@ aside
 }
 .fig7
 {
-	
+
 	box-shadow: 2px 1px 16px -3px rgba(26,24,24,0.75);
 	-webkit-box-shadow: 2px 1px 16px -3px rgba(26,24,24,0.75);
 	-moz-box-shadow: 2px 1px 16px -3px rgba(26,24,24,0.75);
-	
+
 }
 .fig8
 {
-	
+
 	box-shadow: 2px 1px 16px -3px rgba(26,24,24,0.75);
 	-webkit-box-shadow: 2px 1px 16px -3px rgba(26,24,24,0.75);
 	-moz-box-shadow: 2px 1px 16px -3px rgba(26,24,24,0.75);
 	margin-top: 20px !important;
-	
+
 }
 
 footer
@@ -504,7 +515,7 @@ footer p
 		width: 150px;
     	height: auto;
 	}
-	ul 
+	ul
 	{
 		font-size: 1em;
 		padding: 0;
@@ -540,7 +551,7 @@ footer p
     	padding-left: 30px;
     	border-radius: 30px 30px 30px 30px!important;
     	margin-left: -28px;
-	    
+
     }
     i.loup
     {
@@ -573,14 +584,14 @@ footer p
 	    border-radius: 30px;
 	    line-height: 2;
 	    font-size: 15px;
-	    
+
 	}
-	.informations 
+	.informations
 	{
     	margin-bottom: 15px;
     	margin-top: 20px;
 	}
-	.filtres button 
+	.filtres button
 	{
 		font-size: 1em;
 	    border-radius: 65px;
@@ -605,7 +616,7 @@ footer p
 		display: flex;
 		flex-wrap: wrap;
 	}
-	
+
     .filtres
     {
     	display: flex;
@@ -636,7 +647,7 @@ footer p
     	font-size: 1.3em;
     	margin: 50px;
     }
-    p.plus 
+    p.plus
     {
 	    margin-left: 60px;
 	    font-size: 1.3em;
@@ -667,7 +678,7 @@ footer p
      {
      	font-size: 1.1em;
      	line-height: 1.5;
-     	
+
      }
     .aligne
     {
@@ -719,7 +730,7 @@ footer p
     	width: 100%;
     	border-top-left-radius: 40px;
     	border-top-right-radius: 40px;
-    	
+
     }
     #Activites figure
     {
@@ -732,10 +743,10 @@ footer p
     {
     	padding-top: 15px;
     }
-    
+
     #Pied
     {
-    	
+
     	display: flex;
     	flex-direction: column;
     }
@@ -743,13 +754,13 @@ footer p
     {
     	width: auto;
     	padding: 50px;
-   
+
     }
     footer p
     {
     	font-size: 1em;
     }
-    
+
     .fin h2
     {
     	font-size: 1.4em;
@@ -765,7 +776,7 @@ footer p
 {
 	ul
 	{
-	
+
 	    font-size: 1em;
 	    padding: 14px 19px 10px 19px;
 	    display: flex;
@@ -776,7 +787,7 @@ footer p
 	{
 		font-size: 17px;
 	}
-}    
+}
 
 }
 @media all and (max-device-width: 480px)
@@ -823,7 +834,7 @@ footer p
     	padding-left: 35px;
     	border-radius: 30px 30px 30px 30px!important;
     	margin-left: -28px;
-	    
+
     }
     i.loup
     {
@@ -862,7 +873,7 @@ footer p
 	    line-height: 2.5;
 	    margin-right: 35px;
 	}
-	.filtres button 
+	.filtres button
 	{
 		font-size: 2em;
 	    border-radius: 65px;
@@ -924,7 +935,7 @@ footer p
     	font-size: 2.5em;
     	margin: 55px;
     }
-    p.plus 
+    p.plus
     {
 	    margin-left: 60px;
 	    font-size: 2.1em;
@@ -958,7 +969,7 @@ footer p
      #hotels figcaption h3
      {
      	font-size: 1.5em;
-     	
+
      }
      #hotels figcaption p
      {
@@ -1008,7 +1019,7 @@ footer p
     	width: 100%;
     	border-top-left-radius: 40px;
     	border-top-right-radius: 40px;
-    	
+
     }
     #Activites figure
     {
@@ -1024,7 +1035,7 @@ footer p
 	}
     #Pied
     {
-    	
+
     	display: flex;
     	flex-direction: column;
     }
@@ -1032,13 +1043,13 @@ footer p
     {
     	width: auto;
     	padding: 50px;
-   
+
     }
     .footer p
     {
     	font-size: 1.5em;
     }
-    
+
     .fin h2
     {
     	font-size: 1.9em;
@@ -1049,7 +1060,64 @@ footer p
     	color: black;
     	text-decoration: none;
     }
-    
+
+}
+
+nav {
+	width: calc(100% + 60px);
+	order: 1;
+	margin-left: -60px;
+}
+
+#menu {
+	width: 100%;
+	flex-wrap: nowrap;
+	margin: 20px 0;
+	padding: 0;
+	border-bottom: 1px solid grey;
+}
+
+#menu li {
+	width: 50%;
+	padding: 20px 0;
+	text-align: center;
+}
+
+#menu li:first-child {
+	border-bottom: 1px solid #0065FC;
+}
+
+.heb
+{
+	color: #0065FC;
+	text-decoration: none;
+}
+
+@media screen and (min-width: 768px){
+	.main_header {
+		flex-wrap: nowrap;
+	}
+
+	nav {
+		width: auto;
+		order: 0;
+		margin-left: 0;
+	}
+
+	#menu {
+		margin: 0;
+		border-bottom: 0;
+	}
+
+	#menu li:first-child {
+		border-bottom: none;
+	}
+
+	.heb
+	{
+		color: #0065FC;
+		text-decoration: overline;
+	}
 }
 
 
