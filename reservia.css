@@ -627,7 +627,7 @@ footer p
     #hebergements img
     {
     	width: 99%;
-    	height: 64%;
+    	height: 60%;
 
     }
     #hotels h2
@@ -666,7 +666,7 @@ footer p
      figcaption h3, figcaption p
      {
      	font-size: 1.1em;
-     	line-height: 2;
+     	line-height: 1.5;
      	
      }
     .aligne
@@ -676,10 +676,14 @@ footer p
     	margin: 50px;
 	 	border-radius: 35px;
     }
+    .texte
+    {
+    	line-height: 2;
+    }
     .contour
     {
     	width: auto;
-	    height: 390px;
+	    height: 280px;
 	    box-shadow: 2px 1px 16px -3px rgba(26,24,24,0.75);
 	    -webkit-box-shadow: 2px 1px 16px -3px rgba(26,24,24,0.75);
 	    -moz-box-shadow: 2px 1px 16px -3px rgba(26,24,24,0.75);
@@ -723,6 +727,10 @@ footer p
 	    margin: 40px;
 	    margin-top: 0px;
 	    height: 340px;
+    }
+    #Activites figcaption
+    {
+    	padding-top: 15px;
     }
     
     #Pied

@@ -9,7 +9,7 @@
 {
 	display: flex;
 	justify-content: space-between;
-	align-items: center;
+	align-items: flex-end;
 }
 
  ul
@@ -27,6 +27,12 @@ nav a:hover
 {
 	color: grey;
 	
+}
+
+@font-face
+{
+	font-family: 'Raleway';
+	src: url('static/Raleway-Extra-Bold.ttf') format('truetype');
 }
 @font-face
 {
@@ -88,10 +94,7 @@ button
 	margin-left: 5px;
 	font-family: 'Raleway-Regular';
 }
-.loup
-{
-	display: none;
-}
+
 #recherche
 {
 	justify-content: space-around;
@@ -149,7 +152,7 @@ i.localisation
 	border:1px solid rgb(222,222,222);
 	padding: 0;
 	padding-right: 10px;
-	margin-top:0px;
+	margin-top: 1px;
 	
 }	
 .filtres h3
@@ -173,6 +176,8 @@ i.localisation
 {
 	text-align: justify;
 	line-height: 2.3;
+}
+	
 }
 
 #selection
@@ -202,14 +207,10 @@ i.localisation
 	justify-content: space-around;
 
 }
-#hotels h2, #Loisirs h2
-{
-	padding-left: 15px;
-}
-
  #hebergements
 {
 	width: 60%;
+	height: 20%;
 	background-color: #F2F2F2;
 	border-radius: 15px;
 }
@@ -231,8 +232,12 @@ i.localisation
 	margin-left: -8px;
 	margin-right: -8px; 
 }
-
- p.plus
+ 
+ #hebergement, h2
+ {
+ 	margin: 25px;
+ }
+ .plus, p
  {
  	line-height: 25px;
  	font-family: 'Raleway';
@@ -250,7 +255,7 @@ i.localisation
 	margin-right: 2%;
 	margin-top: 0%;
 	
-}
+ }
 figcaption
 {
 	padding: 5%;
@@ -278,7 +283,10 @@ figcaption p
 	font-size: 0.8em;
 
 }
+figcaption i
+{
 
+}
 #populaires
 {
 	width: 36%;
@@ -293,7 +301,6 @@ figcaption p
 .pop i
 {
 	color: black;
-	padding-right: 15px;
 }
 
 #populaires img
@@ -342,8 +349,8 @@ figcaption p
 aside
 {
 	width: 36%;
- 	background-color: #F2F2F2;
-  	border-radius: 15px;
+	 background-color: #F2F2F2;
+	  border-radius: 15px;
 }
 
 #Activites 
@@ -463,368 +470,80 @@ footer
 {
 	width: 100%;
 	display: flex;
-	justify-content: space-between;
+	justify-content: space-around;
 	background-color: #F2F2F2;
-	padding: 25px;
 }
 footer h1
 {
 	font-family: 'Raleway';
 	font-size: 0.9em;
+	margin-left: 20px;
 }
 footer p
 {
 	font-family: 'Raleway-Regular';
 	font-size: 0.8em;
 }
-#Pied a
+.A_propos
 {
-	color: black;
-	text-decoration: none;
+    padding: 25px;
+    margin-left: -70px;
+
+}
+.Nos_hébergements
+{
+	padding: 25px;
+    padding-right: 80px;
+}
+.Assistance
+{
+	padding: 25px;
+    padding-right: 75px;
+    margin-right: 100px;
 }
 
-.fin
-    {
-    	width: 33%;
-    }
-
-@media all and (max-width: 864px)
+@media all and (max-width: 1024px)
 {
 
 	#Maquette
 	{
 		width: auto;
 	}
-	.main_header
-	{
-		margin-left: 60px;
-	}
-	.main_header img
-	{
-		width: 150px;
-    	height: auto;
-	}
-	ul 
-	{
-		font-size: 1em;
-		padding: 0;
-	}
-
-	h1
-	{
-		font-family: 'Raleway';
-    	font-size: 1.6em;
-    	padding: 0px 60px 20px 60px;
-    	line-height: 1;
-	}
-	#formulaire p
-	{
-	    margin-left: 64px;
-    	font-size: 1.1em;
-	}
-	#recherche p
-	{
-    	height: 50px;
-    	margin-top: 20px;
-    }
-    .pointe
-    {
-    	display: none;
-    }
-    button.loup
-    {
-    	display: flex;
-    	width: 80px;
-    	font-size: 23px;
-    	align-items: center;
-    	padding-left: 30px;
-    	border-radius: 30px 30px 30px 30px!important;
-    	margin-left: -28px;
-	    
-    }
-    i.loup
-    {
-    	font-size: 100px;
-    }
-    #recherche .fas
-    {
-    	color: white;
-    }
-    #recherche  input
-    {
-    	font-size: 20px;
-    }
-    i.localisation
-    {
-    	padding-left: 25px;
-	    padding-right: 25px;
-	    font-size: 23px;
-    	border-radius: 30px 0px 0px 30px;
-    	color: black!important;
-    }
-	.filtres p, .filtres h3
-	{
-		font-size: 1.15em;
-	}
-	.informations i
-	{
-	    width: 30px;
-    	height: 30px;
-	    border-radius: 30px;
-	    line-height: 2;
-	    font-size: 15px;
-	    
-	}
-	.informations 
-	{
-    	margin-bottom: 15px;
-    	margin-top: 20px;
-	}
-	.filtres button 
-	{
-		font-size: 1em;
-	    border-radius: 65px;
-	    padding-right: 30px;
-    	margin-top: 20px;
-    	height: 55px;
-    	background-color: white;
-    	border: 2px solid rgb(222,222,222);
-	}
-	.filtres i
-	{
-		width: 71px;
-   	 	height: 51px;
-   	 	margin-right: 20px;
-   	 	line-height: 2.5;
-   	 	border-radius: 30px;
-   	 	font-size: 20px;
-   	 	margin-left: -3px;
-	}
-	#boutons
+	ul
 	{
 		display: flex;
-		flex-wrap: wrap;
+		flex-wrap: wrap-reverse;
 	}
-	
-    .filtres
-    {
-    	display: flex;
-    	flex-direction: column;
-    	align-items: flex-start;
-	    margin: 10px 0px 0 64px;
-    }
-    #hotels
-    {
-    	width: auto;
-    	display: flex;
-    	flex-direction: column-reverse;
-    }
-    #hebergements
-    {
-    	width: auto;
-    	background-color:white;
-    }
-    #hebergements img
-    {
-    	width: 99%;
-    	height: 64%;
-
-    }
-    #hotels h2
-    {
-    	font-family: 'Raleway';
-    	font-size: 1.3em;
-    	margin: 50px;
-    }
-    p.plus 
-    {
-	    margin-left: 60px;
-	    font-size: 1.3em;
-    }
-    #image1
-    {
-    	width: auto;
-    	display: flex;
-    	flex-direction: column;
-    }
-    #populaires
-    {
-    	width: auto;
-    	border-radius: 0;
-    }
-    h2.pop
-    {
-    	font-size: 2.5em;
-    }
-     #populaires img
-     {
-     	height: 240px;
-    	width: 270px;
-    	border-bottom-left-radius: 35px;
-    	border-top-left-radius: 35px;
-     }
-     figcaption h3, figcaption p
-     {
-     	font-size: 1.1em;
-     	line-height: 2;
-     	
-     }
-    .aligne
-    {
-    	height: 240px;
-    	padding: 4px 0 10px 4px;
-    	margin: 50px;
-	 	border-radius: 35px;
-    }
-    .contour
-    {
-    	width: auto;
-	    height: 390px;
-	    box-shadow: 2px 1px 16px -3px rgba(26,24,24,0.75);
-	    -webkit-box-shadow: 2px 1px 16px -3px rgba(26,24,24,0.75);
-	    -moz-box-shadow: 2px 1px 16px -3px rgba(26,24,24,0.75);
-	    background-color: white;
-        margin: 30px;
-	    margin-left: 5%;
-	    margin-right: 5%;
-	    margin-top: 0;
-	    border-radius: 22px;
-	    padding: 4px;
-    }
-    .contour figcaption
-    {
-    	padding: 3%;
-    	padding-top: 4px;
-    }
-    #Loisirs h2
-    {
-    	font-size: 1.2em;
-    	margin-left: 55px;
-    	padding-left: 10px;
-    }
-    #Activites
-    {
-
-    	width: auto;
-    	display: flex;
-    	flex-direction: column;
-    }
-    #Activites img
-    {
-    	height: 275px;
-    	width: 100%;
-    	border-top-left-radius: 40px;
-    	border-top-right-radius: 40px;
-    	
-    }
-    #Activites figure
-    {
-    	border-radius: 40px;
-	    margin: 40px;
-	    margin-top: 0px;
-	    height: 340px;
-    }
-    
-    #Pied
-    {
-    	
-    	display: flex;
-    	flex-direction: column;
-    }
-    footer
-    {
-    	width: auto;
-    	padding: 50px;
-   
-    }
-    footer p
-    {
-    	font-size: 1em;
-    }
-    
-    .fin h2
-    {
-    	font-size: 1.4em;
-    	margin: auto;
-    }
-    #Pied a
-    {
-    	color: black;
-    	text-decoration: none;
-    }
-    
-
-}
-@media all and (max-device-width: 480px)
-{
-	#Maquette
+	/*#navigation
 	{
-		width: fit-content;
-
-	}
-	.main_header
-	{
-		margin-left: 60px;
-	}
-	.main_header img
-	{
-		width: 240px;
-    	height: auto;
-	}
-
-	h1
+		display: flex;
+		flex-direction: column-reverse;
+	}*/
+	h1, p
 	{
 		font-family: 'Raleway';
-    	font-size: 2.5em;
-    	padding: 20px 55px;
+	}
+	h1
+	{
+    	font-size: 2.29em;
+    	padding: 55px;
     	line-height: 1;
 	}
 	#recherche p
 	{
-    	height: 100px;
+    	height: 60px;
     	margin-top: 25px;
-    	font-size: 22px;
-    }
-
-    .pointe
-    {
-    	display: none;
-    }
-    button.loup
-    {
-    	display: flex;
-    	width: 100px;
-    	font-size: 35px;
-    	align-items: center;
-    	padding-left: 35px;
-    	border-radius: 30px 30px 30px 30px!important;
-    	margin-left: -28px;
-	    
-    }
-    i.loup
-    {
-    	font-size: 100px;
-    }
-    #recherche .fas
-    {
-    	color: white;
     }
     #recherche  input
     {
-    	font-size: 35px;
+    	font-size: 29px;
     	font-weight: 700;
-    }
-    #formulaire .map
-    {
-    	margin: 30px;
     }
     i.localisation
     {
-    	padding-left: 40px;
-    	padding-right: 40px;
-    	font-size: 40px;
-    	border-radius: 30px 0px 0px 30px;
-    	color: black!important;
+    	padding-left: 20px;
+    	padding-right: 20px;
+    	font-size: 27px;
     }
 	.filtres p, .filtres h3
 	{
@@ -840,33 +559,21 @@ footer p
 	}
 	.filtres button 
 	{
-		font-size: 2em;
-	    border-radius: 65px;
-	    padding-right: 23px;
+		font-size: 1.8em;
+	    border-radius: 40px;
+	    padding-right: 40px;
     	margin-top: 25px;
-    	height: 95px;
-    	background-color: white;
-    	border: 4px solid rgb(222,222,222);
+    	height: 70px;
 	}
 	.filtres i
 	{
-		width: 95px;
-   	 	height: 95px;
+		width: 70px;
+   	 	height: 70px;
    	 	margin-right: 20px;
-   	 	line-height: 3;
-   	 	border-radius: 65px;
-   	 	margin-top: -4px;
-   	 	margin-left: -4px;
-	}
-	#boutons
-	{
-		display: flex;
-		flex-wrap: wrap;
 	}
 	#formulaire p
 	{
 		margin-left: 57px;
-	   font-size: 2em;
 	}
     .filtres
     {
@@ -892,10 +599,10 @@ footer p
     	height: 57%;
 
     }
-    #hotels h2
+    h2
     {
     	font-family: 'Raleway';
-    	font-size: 2.5em;
+    	font-size: 2.80em;
     	margin: 55px;
     }
     p.plus 
@@ -914,29 +621,18 @@ footer p
     	width: auto;
     	border-radius: 0;
     }
-    h2.pop
-    {
-    	font-size: 2.5em;
-    }
+
      #populaires img
      {
-     	height: 250px;
-    	width: 250px;
+     	height: 364px;
+    	width: 350px;
     	border-bottom-left-radius: 35px;
     	border-top-left-radius: 35px;
      }
-     .texte1
+     figcaption h3, figcaption p
      {
-     	line-height: 0;
-     }
-     #hotels figcaption h3
-     {
-     	font-size: 1.5em;
+     	font-size: 2em;
      	
-     }
-     #hotels figcaption p
-     {
-     	font-size: 1.5em;
      }
     .aligne
     {
@@ -949,7 +645,7 @@ footer p
     {
     	width: auto;
 	    height: 465px;
-	    box-shadow: 2px 1px 16px -3px rgba(26,24,24,0.75);
+	    box-shadow: box-shadow: 2px 1px 16px -3px rgba(26,24,24,0.75);
 	    -webkit-box-shadow: 2px 1px 16px -3px rgba(26,24,24,0.75);
 	    -moz-box-shadow: 2px 1px 16px -3px rgba(26,24,24,0.75);
 	    background-color: white;
@@ -963,11 +659,6 @@ footer p
     {
     	padding: 3%;
     	padding-top: 4px;
-    }
-    #Loisirs h2
-    {
-    	font-size: 0.9em;
-    	margin-left: 55px;
     }
     #Activites
     {
@@ -991,7 +682,10 @@ footer p
 	    margin-top: 0px;
 	    height: 480px;
     }
-    
+    #Loisirs h2 
+    {
+    	font-size: 2.4em;
+    }
     #Pied
     {
     	
@@ -1001,21 +695,24 @@ footer p
     footer
     {
     	width: auto;
-    	padding: 50px;
    
     }
-    
-    .fin h2
+    #Pied h1
     {
-    	font-size: 1.9em;
-    	margin: auto;
+    	font-size: 1.5em;
+    	margin-left: 60px;
     }
-    #Pied a
+    #Pied p
     {
-    	color: black;
-    	text-decoration: none;
+    	font-size: 1.8em;
     }
-    
+    .Nos_hébergements h1
+    {
+    	font-size: 1.5em;
+    	margin-left: 60px;
+    }
+    }
+
 }
 
 
